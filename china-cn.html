@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>中国过去的海啸情报</title>
+        <link rel="stylesheet" href="style-cn.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>中国过去的海啸情报</h1>
+                <p>欢迎在这里查阅过去的海啸信息。所有时间都是UTC+8（中国）的本地时间。</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">其他链接</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">多语言 Multi-language</button>
+                            <div class="dropdown-content">
+                                <a href="javascript:void(0)">中文</a>
+                                <a href="javascript:void(0)">English</a>
+                                <a href="javascript:void(0)">日本語</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">各地过去的海啸情报</a>
+                    </li>
+                    <li>
+                        <a href="china-cn.html">主页</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+		<main>
+            <div class="container">
+			    <section id="affecting">
+                    <h2>最新的海啸情报</h2>
+                    <p>
+                        <a target="_blank" href="https://www.nmefc.cn/zhyj/hx">国家海洋环境预报中心（自然资源部海啸预警中心） ↗</a></p>
+					<p>
+                        <strong>信息更新有延迟，请不要使用这里的信息作为避难的参考信息。<br>还有很多正在制作的页面，给您带来不便。</strong>
+                    </p>
+                </section>
+                <hr>
+                <br>
+                <h3 style="font-weight: normal;">
+					<label class="checkbox-label">
+                        <input type="checkbox" id="checkbox0" checked>
+                        <span class="checkbox-custom"></span>
+                        &nbsp;显示海啸蓝色预警&nbsp;|&nbsp;
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="checkbox1" checked>
+                        <span class="checkbox-custom"></span>
+                        &nbsp;显示海啸黄色预警&nbsp;|&nbsp;
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="checkbox2" checked>
+                        <span class="checkbox-custom"></span>
+                        &nbsp;显示海啸橙色预警&nbsp;|&nbsp;
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="checkbox3" checked>
+                        <span class="checkbox-custom"></span>
+                        &nbsp;显示海啸红色预警
+                    </label>
+                </h3>
+				<br>
+                <section id="warnings-after2022">
+                    <h2>过去的海啸情报（2022年8月以后）</h2>
+                    <p>*这一页中的震级，如无特别注明，均为中国地震台网正式测定的震级。</p>
+                    <br>
+					<div class="card-container">
+                        <div class="card red">
+                            <a href="cn/2024-04-03.html">
+                                <h3>海啸红色预警 →</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <strong>震央地名</strong>
+                                        </th>
+                                        <td>台湾省花莲县海域</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>地震发生日时</strong>
+                                        </th>
+                                        <td>2024年4月3日 07:58</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>震级</strong>
+                                        </th>
+                                        <td>7.3</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>深度</strong>
+                                        </th>
+                                        <td>12km</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+					</div>
+                </section>
+                <hr>
+                <br>
+                <section id="warnings-before2022-after2004">
+					<h2>过去的海啸情报（2004年8月以后，2022年8月以前）</h2>
+					<p>*这一页中的震级，如无特别注明，均为矩震级。</p>
+					<br>
+					<div class="card-container">
+                        <div class="card blue">
+                            <a href="cn/2011-03-11.html">
+                                <h3>海啸蓝色预警 →</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <strong>震央地名</strong>
+                                        </th>
+                                        <td>日本本州岛东部海域</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>地震发生日时</strong>
+                                        </th>
+                                        <td>2011年3月11日 13:46</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>震级</strong>
+                                        </th>
+                                        <td>9.0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <strong>深度</strong>
+                                        </th>
+                                        <td>20km</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+					</div>
+				</section>
+			</div>
+		</main>
+        <footer>
+            <div class="container">
+                <p>&copy;2024 Mark MTR. Some Rights Reserved. Licensed Under CC BY-NC-SA 4.0.</p>
+            </div>
+        </footer>
+        <script>
+            // Function to toggle visibility based on checkbox status
+            function toggleVisibility(checkboxId, className) {
+                const checkbox = document.getElementById(checkboxId);
+                const elements = document.getElementsByClassName(className);
+
+                checkbox.addEventListener('change', function() {
+                    for (let i = 0; i < elements.length; i++) {
+                        elements[i].style.display = checkbox.checked ? 'block' : 'none';
+                    }
+                });
+            }
+
+            // Initialize checkbox behaviors
+			toggleVisibility('checkbox0', 'blue');
+            toggleVisibility('checkbox1', 'yellow');
+            toggleVisibility('checkbox2', 'orange');
+            toggleVisibility('checkbox3', 'red');
+        </script>
+    </body>
+</html>
